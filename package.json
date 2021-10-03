@@ -1,9 +1,13 @@
 {
   "name": "assignment-01",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^7.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -15,5 +19,18 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "Assignment01 Comp229",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdee2000/COMP229-f2021-Assignment01.git"
+  },
+  "author": "Matthew Delamasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattdee2000/COMP229-f2021-Assignment01/issues"
+  },
+  "homepage": "https://github.com/mattdee2000/COMP229-f2021-Assignment01#readme"
 }
